@@ -24,7 +24,7 @@ final List<StarMicronicsModel> starMicronicsModels = [
   StarMicronicsModel(
     name: 'mC-Print3',
     emulation: 'StarPRNT',
-    models: ['MCP30 (STR-001)', 'MCP31'],
+    models: ['MCP30 (STR-001)', 'MCP31', 'BT:mC-Print3-I0449'],
   ),
   StarMicronicsModel(
     name: 'mPOP',
@@ -44,11 +44,7 @@ final List<StarMicronicsModel> starMicronicsModels = [
   StarMicronicsModel(
     name: 'TSP650II',
     emulation: 'StarLine',
-    models: [
-      'TSP654II (STR_T-001)',
-      'TSP654 (STR_T-001)',
-      'TSP651 (STR_T-001)'
-    ],
+    models: ['TSP654II (STR_T-001)', 'TSP654 (STR_T-001)', 'TSP651 (STR_T-001)'],
   ),
   StarMicronicsModel(
     name: 'TSP700II',
@@ -123,12 +119,7 @@ final List<StarMicronicsModel> starMicronicsModels = [
   StarMicronicsModel(
     name: 'SP700',
     emulation: 'StarDotImpact',
-    models: [
-      'SP712 (STR-001)',
-      'SP717 (STR-001)',
-      'SP742 (STR-001)',
-      'SP747 (STR-001)'
-    ],
+    models: ['SP712 (STR-001)', 'SP717 (STR-001)', 'SP742 (STR-001)', 'SP747 (STR-001)'],
   ),
   StarMicronicsModel(
     name: 'SM-L300',
