@@ -187,7 +187,6 @@ class PrintCommands {
     final RenderRepaintBoundary repaintBoundary = RenderRepaintBoundary();
     logicalSize ??= View.of(context).physicalSize / View.of(context).devicePixelRatio;
     imageSize ??= View.of(context).physicalSize;
-    assert(logicalSize.aspectRatio == imageSize.aspectRatio);
     final RenderView renderView = RenderView(
       view: WidgetsFlutterBinding.ensureInitialized().platformDispatcher.views.first,
       child: RenderPositionedBox(
